@@ -1,7 +1,7 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const Web3 = require('web3');
 // Replace this with your own mnemonic phrase and Infura/Alchemy endpoint
-const mnemonic = 'YOUR_MNEMONIC_HERE';
+const mnemonic = 'YOUR_MNEMONIC_HERE'; // IMPORTANT: Replace with your mnemonic
 const infuraUrl = process.env.INFURA_URL || 'https://rinkeby.infura.io/v3/YOUR_INFURA_PROJECT_ID';
 
 module.exports = {
